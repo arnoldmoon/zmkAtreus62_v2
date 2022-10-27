@@ -1,5 +1,7 @@
 if SHIELD_ATREUS62
 
+CONFIG_BUILD_OUTPUT_UF2=y
+
 config ZMK_KEYBOARD_NAME
     default "Atreus62 Keyboard"
 
