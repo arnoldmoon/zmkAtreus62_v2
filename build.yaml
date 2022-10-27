@@ -15,6 +15,3 @@
 include:
   - board: nice_nano_v2
     shield: naked60
-include:
-  - board: nice_nano_v2
-    shield: naked60
