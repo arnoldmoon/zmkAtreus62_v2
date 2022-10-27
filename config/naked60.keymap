@@ -70,11 +70,11 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(3,6) RC(4,6) RC(4,7) RC(4,8) 
 
         mouse_layer {
             bindings = <
-&none  &kp F1  &kp F2      &kp F3        &kp F4      &kp F5                       &kp F6 &kp F7 &kp F8     &kp F9 &kp F10 &kp DEL
-&trans &kp F11 &kp F12     SCROLL_DOWN() SCROLL_UP() &none                        &none  &none  &none      &none  &none   &none
-&trans &none   MOVE_LEFT() MOVE_DOWN()   MOVE_UP()   MOVE_RIGHT()                 &none  MB1()  MB3()      MB2()  &none   &none
-&trans &none   &none       &none         &none       &none                        &none  &none  &none      &none  &none   &none
-&trans &trans  &trans      &none         &none       &trans       &kp SPACE &none &trans &none  &bt BT_CLR &trans &trans  &trans
+&none  &kp F1  &kp F2    &kp F3      &kp F4    &kp F5                     &kp F6 &kp F7 &kp F8     &kp F9 &kp F10 &kp DEL
+&trans &kp F11 &kp F12   SCROLL_DOWN SCROLL_UP &none                      &none  &none  &none      &none  &none   &none
+&trans &none   MOVE_LEFT MOVE_DOWN   MOVE_UP   MOVE_RIGHT                 &none  MB1    MB3        MB2    &none   &none
+&trans &none   &none     &none       &none     &none                      &none  &none  &none      &none  &none   &none
+&trans &trans  &trans    &none       &none     &trans     &kp SPACE &none &trans &none  &bt BT_CLR &trans &trans  &trans
             >;
         };
     };
